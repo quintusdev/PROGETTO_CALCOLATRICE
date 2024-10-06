@@ -3,15 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator | Quintusdev 2024
-    </title>
+    <!--Titolo della scheda su browser-->
+    <title>Calculator | Quintusdev 2024</title>
+    <!--Collegamento a file CSS-->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!--Contenitore generale elementi calcolatrice-->
     <div class="wrapper">
         <div class="screen">
             0
         </div>
-        
+        <!--Contenitore pulsanti calcolatrice-->
+        <div class="calc-buttons-container">
+            <!--Contenitore righe pulsanti-->
+            <div class="calc-button-row">
+                <button class="calc-button-double">
+                    C   
+                </button>
+                <button class="calc-button">
+                    &lArr;
+                </button>
+                <button class="calc-button">
+                    &divide;
+                </button>
+            </div>
+
+            <div class="calc-button-row">
+                <button class="calc-button-double">
+                    7   
+                </button>
+                <button class="calc-button">
+                    8
+                </button>
+                <button class="calc-button">
+                    9
+                </button>
+                <button class="calc-button">
+                    &times;
+                </button>
+            </div>
+
+            <div class="calc-button-row">
+                <button class="calc-button-double">
+                    4   
+                </button>
+                <button class="calc-button">
+                    5
+                </button>
+                <button class="calc-button">
+                    6
+                </button>
+                <button class="calc-button">
+                    &minus;
+                </button>
+            </div>
+
+            <div class="calc-button-row">
+                <button class="calc-button-double">
+                    1   
+                </button>
+                <button class="calc-button">
+                    2
+                </button>
+                <button class="calc-button">
+                    3
+                </button>
+                <button class="calc-button">
+                    &plus;
+                </button>
+            </div>
+
+            <div class="calc-button-row">
+                <button class="calc-button-triple">
+                    0
+                </button>
+                <button class="calc-button">
+                    &equals;
+                </button>
+            </div>
+        </div>
     </div>
+    <!--Importazione script JS-->
+    <script src="script.js"></script>
 </body>
 </html>
